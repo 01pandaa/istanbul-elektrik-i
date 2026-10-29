@@ -4,8 +4,8 @@
 // =============================================================
 module.exports = {
   // Firma adı (logo, başlıklar ve schema'da kullanılır)
-  firmaAdi: "Usta Elektrik İstanbul",
-  kisaAd: "Usta Elektrik",
+  firmaAdi: "Garden Elektrik",
+  kisaAd: "Garden Elektrik",
   slogan: "İstanbul'un iki yakasında güvenilir elektrik servisi",
 
   // Alan adı: sonunda / OLMADAN yazın. Örn: https://www.ustaelektrik.com
