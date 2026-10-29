@@ -33,7 +33,7 @@ module.exports = {
   // Google Haritalar işletme linki (varsa)
   haritaLinki: "",
 
-  calismaSaatleri: "Pazartesi – Cumartesi 08:00 – 20:00",
+  calismaSaatleri: "Haftanın 7 günü, 24 saat",
   // Gerçekten 7/24 acil servis veriyorsanız true bırakın, vermiyorsanız false yapın.
   acilServis724: true,
 

@@ -393,7 +393,7 @@ ${P.guvenSerit()}
     ["Ödeme seçenekleriniz neler?", "Nakit ve banka havalesi/EFT ile ödeme alıyoruz. Kart ile ödeme seçeneğini aramanız sırasında sorabilirsiniz."],
     ["Fatura kesiyor musunuz?", "Evet, yapılan iş için fatura düzenliyoruz."],
     ["Yaptığınız işe garanti var mı?", "İşçilikten kaynaklanan bir sorun olursa geri dönüp ücretsiz düzeltiyoruz. Malzemeler üretici garantisi kapsamındadır."],
-    ["Hafta sonu çalışıyor musunuz?", `${site.calismaSaatleri} arasında çalışıyoruz.${site.acilServis724 ? " Acil arızalar için 7/24 ulaşabilirsiniz." : ""}`],
+    ["Hafta sonu çalışıyor musunuz?", `Evet. ${site.calismaSaatleri} hizmet veriyoruz; hafta sonu ve resmî tatillerde de bize ulaşabilirsiniz.`],
   ];
   const tum = [...genel, ...hizmetler.flatMap((h) => h.sss.slice(0, 2))];
   const gruplar = `<h2>Genel</h2>${P.sss(genel)}${hizmetler.map((h) => `<h2><a href="${u(hizmetUrl(h))}">${h.ad}</a></h2>${P.sss(h.sss.slice(0, 2))}`).join("")}`;
