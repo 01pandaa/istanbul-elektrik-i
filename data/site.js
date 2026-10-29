@@ -9,13 +9,13 @@ module.exports = {
   slogan: "İstanbul'un iki yakasında güvenilir elektrik servisi",
 
   // Alan adı: sonunda / OLMADAN yazın. Örn: https://www.ustaelektrik.com
-  siteUrl: "https://01pandaa.github.io",
+  siteUrl: "https://www.gardenelektrikci.com",
   // GitHub Pages proje sitesi (kullanici.github.io/repo) için "/repo" yazın.
   // Kendi alan adınızı bağladıysanız "" bırakın.
-  basePath: "/istanbul-elektrik-i",
+  basePath: "",
   // Kendi alan adınızı GitHub Pages'e bağladığınızda buraya yazın (örn: "www.ustaelektrik.com").
   // Boş bırakılırsa CNAME dosyası oluşturulmaz.
-  cname: "",
+  cname: "www.gardenelektrikci.com",
 
   // İletişim — telefonlar hem görünen hem arama formatında
   telefon: "0546 967 19 45",
