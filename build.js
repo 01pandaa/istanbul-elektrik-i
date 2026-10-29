@@ -419,7 +419,8 @@ ${P.guvenSerit()}
     <a class="ilet-kart" href="${L.waLink()}" target="_blank" rel="noopener" data-ev="whatsapp">${ikon("whatsapp", "ic ic-b")}<span>WhatsApp</span><b>Mesaj gönderin</b></a>
     <a class="ilet-kart" href="mailto:${site.eposta}">${ikon("posta", "ic ic-b")}<span>E-posta</span><b>${site.eposta}</b></a>
     <div class="ilet-kart">${ikon("saat", "ic ic-b")}<span>Çalışma saatleri</span><b>${esc(site.calismaSaatleri)}</b>${site.acilServis724 ? "<small>Acil arıza: 7/24</small>" : ""}</div>
-    <div class="ilet-kart">${ikon("konum", "ic ic-b")}<span>Adres</span><b>${esc(site.adres.sokak)}, ${site.adres.ilce} / ${site.adres.il}</b></div>
+    ${site.sosyal.instagram ? `<a class="ilet-kart" href="${site.sosyal.instagram}" target="_blank" rel="noopener">${ikon("instagram", "ic ic-b")}<span>Instagram</span><b>@${site.sosyal.instagram.replace(/\/$/, "").split("/").pop()}</b></a>` : ""}
+    <div class="ilet-kart">${ikon("konum", "ic ic-b")}<span>Hizmet bölgesi</span><b>${L.adresMetni()}</b></div>
   </div>
   <form class="form" id="talep" novalidate>
     <h2>Servis talebi</h2>
@@ -436,7 +437,7 @@ ${P.guvenSerit()}
     <p class="form-hata" role="alert" hidden>Lütfen zorunlu alanları doldurun.</p>
   </form>
 </div>
-<div class="wrap harita"><iframe title="Konum" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=${site.koordinat.lat},${site.koordinat.lng}&z=13&output=embed"></iframe></div>
+${site.koordinat ? `<div class="wrap harita"><iframe title="Konum" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://maps.google.com/maps?q=${site.koordinat.lat},${site.koordinat.lng}&z=13&output=embed"></iframe></div>` : ""}
 </section>`,
   }), 0.6);
 

@@ -18,18 +18,18 @@ module.exports = {
   cname: "",
 
   // İletişim — telefonlar hem görünen hem arama formatında
-  telefon: "0555 000 00 00",
-  telefonLink: "+905550000000",
-  whatsapp: "905550000000", // ülke koduyla, + olmadan
-  eposta: "info@ornek-elektrikci.com",
+  telefon: "0546 967 19 45",
+  telefonLink: "+905469671945",
+  whatsapp: "905469671945", // ülke koduyla, + olmadan
+  eposta: "gardenelektrik3134@gmail.com",
   adres: {
-    sokak: "Örnek Mah. Örnek Sok. No: 1",
+    sokak: "" /* açık adres verilince yazılacak; boşken sitede gösterilmez */,
     ilce: "Kadıköy",
     il: "İstanbul",
-    postaKodu: "34000",
+    postaKodu: "",
   },
-  // Harita koordinatı (Google Haritalar'dan alınabilir)
-  koordinat: { lat: 40.9909, lng: 29.0303 },
+  // Haritada gösterilecek konum (açık adres girilince doldurun; null iken harita gösterilmez)
+  koordinat: null,
   // Google Haritalar işletme linki (varsa)
   haritaLinki: "",
 
@@ -39,13 +39,10 @@ module.exports = {
 
   kurulusYili: 2010,
   // Sahip olunan belgeler (gerçek olanları yazın; boş bırakılırsa gösterilmez)
-  belgeler: [
-    "Elektrik Tesisatçılığı Ustalık Belgesi",
-    "İSG Eğitim Sertifikası",
-  ],
+  belgeler: [],
 
   sosyal: {
-    instagram: "",
+    instagram: "https://www.instagram.com/gardenelektrik34/",
     facebook: "",
   },
 
