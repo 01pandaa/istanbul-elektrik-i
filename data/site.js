@@ -9,10 +9,10 @@ module.exports = {
   slogan: "İstanbul'un iki yakasında güvenilir elektrik servisi",
 
   // Alan adı: sonunda / OLMADAN yazın. Örn: https://www.ustaelektrik.com
-  siteUrl: "https://www.ornek-elektrikci.com",
+  siteUrl: "https://01pandaa.github.io",
   // GitHub Pages proje sitesi (kullanici.github.io/repo) için "/repo" yazın.
   // Kendi alan adınızı bağladıysanız "" bırakın.
-  basePath: "",
+  basePath: "/istanbul-elektrik-i",
   // Kendi alan adınızı GitHub Pages'e bağladığınızda buraya yazın (örn: "www.ustaelektrik.com").
   // Boş bırakılırsa CNAME dosyası oluşturulmaz.
   cname: "",
