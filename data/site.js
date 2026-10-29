@@ -1,0 +1,55 @@
+// =============================================================
+//  FİRMA AYARLARI — Sitedeki tüm firma bilgileri buradan gelir.
+//  Sadece bu dosyayı düzenleyip yeniden derlemeniz yeterli.
+// =============================================================
+module.exports = {
+  // Firma adı (logo, başlıklar ve schema'da kullanılır)
+  firmaAdi: "Usta Elektrik İstanbul",
+  kisaAd: "Usta Elektrik",
+  slogan: "İstanbul'un iki yakasında güvenilir elektrik servisi",
+
+  // Alan adı: sonunda / OLMADAN yazın. Örn: https://www.ustaelektrik.com
+  siteUrl: "https://www.ornek-elektrikci.com",
+  // GitHub Pages proje sitesi (kullanici.github.io/repo) için "/repo" yazın.
+  // Kendi alan adınızı bağladıysanız "" bırakın.
+  basePath: "",
+  // Kendi alan adınızı GitHub Pages'e bağladığınızda buraya yazın (örn: "www.ustaelektrik.com").
+  // Boş bırakılırsa CNAME dosyası oluşturulmaz.
+  cname: "",
+
+  // İletişim — telefonlar hem görünen hem arama formatında
+  telefon: "0555 000 00 00",
+  telefonLink: "+905550000000",
+  whatsapp: "905550000000", // ülke koduyla, + olmadan
+  eposta: "info@ornek-elektrikci.com",
+  adres: {
+    sokak: "Örnek Mah. Örnek Sok. No: 1",
+    ilce: "Kadıköy",
+    il: "İstanbul",
+    postaKodu: "34000",
+  },
+  // Harita koordinatı (Google Haritalar'dan alınabilir)
+  koordinat: { lat: 40.9909, lng: 29.0303 },
+  // Google Haritalar işletme linki (varsa)
+  haritaLinki: "",
+
+  calismaSaatleri: "Pazartesi – Cumartesi 08:00 – 20:00",
+  // Gerçekten 7/24 acil servis veriyorsanız true bırakın, vermiyorsanız false yapın.
+  acilServis724: true,
+
+  kurulusYili: 2010,
+  // Sahip olunan belgeler (gerçek olanları yazın; boş bırakılırsa gösterilmez)
+  belgeler: [
+    "Elektrik Tesisatçılığı Ustalık Belgesi",
+    "İSG Eğitim Sertifikası",
+  ],
+
+  sosyal: {
+    instagram: "",
+    facebook: "",
+  },
+
+  // Gerçek müşteri yorumlarını buraya ekleyin. Boş bırakılırsa bölüm gösterilmez.
+  // Örnek: { ad: "Ahmet Y.", ilce: "Kadıköy", metin: "..." }
+  yorumlar: [],
+};

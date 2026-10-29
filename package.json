@@ -1,0 +1,7 @@
+{
+  "name": "istanbul-elektrikci",
+  "version": "1.0.0",
+  "private": true,
+  "description": "İstanbul elektrikçi web sitesi - statik, programatik SEO",
+  "scripts": { "build": "node build.js", "serve": "node build.js && npx --yes serve dist" }
+}
